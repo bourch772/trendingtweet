@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Listview - jQuery Mobile Demos</title>
+	<link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="../css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="../_assets/css/jqm-demos.css">
+	<script src="../js/jquery.js"></script>
+	<script src="../_assets/js/index.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+	<style id="custom-icon">
+        .ui-icon-custom:after {
+			background-image: url("../_assets/img/glyphish-icons/21-skull.png");
+			background-position: 3px 3px;
+			background-size: 70%;
+		}
+    </style>
+</head>
+<body>
+<div data-role="page" data-control-title="Home" data-theme="b" id="page1">
+    <div role="main" class="ui-content">
+        <div data-role="collapsible-set" data-theme="b" class="setting">
+            <div data-role="collapsible">
+                <h3>
+                    setting
+                </h3>
+                <div data-role="collapsible-set" class="tweet">
+                    <div id="write" data-role="collapsible">
+                        <h3>
+                            write your tweet
+                        </h3>
+                        <div class="ui-field-contain" data-controltype="textinput">
+                            <input name="" id="textinput2" placeholder="" value="" type="text">
+                        </div>
+                        <a href="#page1" class="ui-btn  tweet">
+                            Button
+                        </a>
+                    </div>
+                </div>
+                <div data-role="collapsible-set" class="location">
+                    <div id="contry" data-role="collapsible">
+                        <h3>
+                            chose contry
+                        </h3>
+                        <div id="checkboxes2" class="ui-field-contain" data-controltype="checkboxes">
+                            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                                <input id="checkbox2" name="" data-theme="a" type="checkbox">
+                                <label for="checkbox2">
+                                    contry
+                                </label>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+                <div data-role="collapsible-set" class="all_Tags">
+                    <div id="hashtags" data-role="collapsible">
+                        <h3>
+                            chose hashtags
+                        </h3>
+                        <div id="checkboxes1" class="ui-field-contain" data-controltype="checkboxes">
+                            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                                <input id="checkbox1" name="" data-theme="a" type="checkbox">
+                                <label for="checkbox1">
+                                    #Checkbox
+                                </label>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#page1" class="ui-btn  generate">
+            generate tweets
+        </a>
+        <div data-role="collapsible-set" data-theme="b">
+            <div data-role="collapsible">
+                <h3>
+                    Section Header
+                </h3>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div data-controltype="textblock">
+                            <p>
+                                <b>
+                                    <br>
+                                </b>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <a href="#page1" class="ui-btn ">
+                            Button
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+
